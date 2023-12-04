@@ -1,0 +1,39 @@
+.main1 {
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+    background-color: black;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.img1 {
+    padding: 10px;
+}
+
+.img3{
+    flex: 0 0 25.33%; /* Define a largura para 33.33% para três imagens ao lado */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img3:last-child {
+    margin-top: 100px;
+}
+
+.texto {
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragrafo {
+    width: 35rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+}

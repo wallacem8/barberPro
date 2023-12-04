@@ -1,0 +1,63 @@
+body {
+    background-image: url('../../assets/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px 780px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imageFundo {
+    margin-top: 1rem;
+    width: 16rem;
+    border-radius: 5px;
+    opacity: 0.6;
+    
+}
+
+.redesSociais {
+    display: flex;
+}
+
+.icons {
+    width: 28px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.6rem;
+}
+
+p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.agendarSup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    opacity: 0.5;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+.header .agendarSup {
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.agendarSup:hover {
+    color: white;
+    opacity: 0.8;
+    font-size: 15.8px;
+}
