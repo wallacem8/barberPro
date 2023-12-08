@@ -8,7 +8,7 @@ const Home = () => {
                 <p>Horário de funcionamento: 09:00 ás 19:00</p>
             </div>
             <div>
-                <a href="*" target="_blank">
+                <a href="https://barber-pro-front.vercel.app/" target="_blank">
                     <button>Agendar horário</button>
                 </a>
             </div>

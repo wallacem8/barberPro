@@ -31,7 +31,7 @@ const Header = () => {
 
 
       <div className={styles.agendarSup}>
-        <a href="*" target="_blank">
+        <a href="https://barber-pro-front.vercel.app/" target="_blank">
           <p>Agendar horário</p>
         </a>
       </div>
